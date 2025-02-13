@@ -14,6 +14,23 @@ Chapter 3: Common Programming Concepts
 
 ** Data Types **
 
+- Ints can be signed or unsigned from i/u8 to i/u128. In addition the types isize and usize are architecture dependent. 
+
+- Ints can be defined in the following ways, 
+    Decimal: 98_222 = 98222, 
+    Hex: 0xff, 
+    Octal: 0o77, 
+    Binary 0b1111_0000, 
+    Byte(u8 only): b'A' 
+
+- Rust floating point values can be f32 or f64. Rust defaults to f64 due to it being bigger and roughly the same speed.
+
+- Floating points are always signed
+
+- Compound types can group multiple values into one type. Rust has two primitive compound types: tuples and arrays.
+
+- Arrays allocate data to the stack
+
 ** Functions **
 
 ** Comments **

@@ -37,5 +37,4 @@ fn main() {
     /* However we can use shadowing to acheive the same effect */
     let spaces = "   ";
     let spaces = spaces.len();
-
 }
