@@ -1,6 +1,6 @@
 Chapter 2: Guessing Game
 
--- Rust Features --
+** Rust Features **
 
 - We can create a new empty String with String::new()
 
@@ -10,13 +10,13 @@ Chapter 2: Guessing Game
 
 - Rust allows for easy use of mutable references 
 
-- Use of fString notation: println!("You guessed: {}", guess)
+- Use of fString notation: println!("You guessed: {}", guess) or println!("You guessed: {guess}")
 
 - We can Specify Ranges by using notation such as 1..101 or 1..=100
 
 - Match statements are very strong and can be used in a lot of interesting places
 
--- Cargo Utility -- 
+** Cargo Utility **
 
 - We can use 'crates' or packages by adding to 'Cargo.toml' the following rand = "0.8.5"
 

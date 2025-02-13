@@ -1,6 +1,6 @@
 Chapter 1: Hello World
 
--- Rust Commands --
+** Rust Commands **
 
 - Cargo new <project_name>: initializes cargo directory with cargo.toml and main.rs file
 

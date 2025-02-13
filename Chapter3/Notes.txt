@@ -1,0 +1,21 @@
+Chapter 3: Common Programming Concepts
+
+** Variables and Mutability ** 
+
+- Variables are IMMUTABLE by Default but can be made mutable.
+
+- Constants CANNOT be mutable and are declared using 'const'
+
+- Constants can be declared in any scope including Global
+
+- Constants must be set only to a constant expression not to anything that must be calculated during runtime.
+
+- Variables can be shadowed meaning the same variable name can be reused and will shadow existing ones depending on scope.
+
+** Data Types **
+
+** Functions **
+
+** Comments **
+
+** Control Flow **
