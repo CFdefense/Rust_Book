@@ -1,4 +1,7 @@
+use std::io;
+
 fn main() {
+    
     /* Data Types */
 
     let x = 2.0; // f64
@@ -49,10 +52,10 @@ fn main() {
     let one = x.2;
 
     /* Arrays */
-    let a = [1, 2, 3, 4, 5]
+    let a = [1, 2, 3, 4, 5];
 
     let months = ["January", "February", "March", "April", "May", "June", "July",
-              "August", "September", "October", "November", "December"]
+              "August", "September", "October", "November", "December"];
 
     let a: [i32; 5] = [1, 2, 3, 4, 5];
 

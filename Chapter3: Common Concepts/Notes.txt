@@ -33,6 +33,22 @@ Chapter 3: Common Programming Concepts
 
 ** Functions **
 
+- Functions in rust must use snake case and can be declared anywhere within the scope that they are being used.
+
+- Statements are instructions that perform some action and do not return a value. ie: let y: u32 = 10;
+
+- Expressions evaluate to a resultant value. Let’s look at some examples.
+
 ** Comments **
 
+- Rust has standard commenting such as // /* */ and some documentation comments available
+
 ** Control Flow **
+
+- Rust will not automatically attempt to convert non-boolean types to booleans for comparisons
+
+- Can use boolean logic in assigning Variables
+
+- Can loop using 'loop', 'while' or 'for'
+
+- If we have multiple layers of loops, 'break' and 'continue' will apply to the most inner loop theyre in unless specified
