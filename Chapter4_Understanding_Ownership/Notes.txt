@@ -31,3 +31,11 @@ Chapter 4: Understanding Ownership
 ** Referencing and Borrowing
 
 - Using Referencing we can pass values into functions without giving up Ownership.
+
+- Note that these references cannot be used to change the value they pointed to as they are borrowed (Can use mut ref)
+
+- Mutable references have one big restriction, you can only have one mutable reference to a value.
+
+- We cannot have a mutable and immutable reference to the same value.
+
+- Rust will not allow us to reference a value in memory that is no longer there ie a 'dangling pointer'
