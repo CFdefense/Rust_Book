@@ -1,5 +1,5 @@
 {
   "rust-analyzer.linkedProjects": [
-    "/home/cfdefence/Documents/Github/Rust_Book/Chapter4_Understanding_Ownership/ownership/Cargo.toml"
+    "/home/cfdefence/Documents/Github/Rust_Book/Chapter4_Understanding_Ownership/referencing_borrowing/Cargo.toml"
   ]
 }
