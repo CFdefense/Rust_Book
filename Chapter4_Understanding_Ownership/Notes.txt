@@ -39,3 +39,11 @@ Chapter 4: Understanding Ownership
 - We cannot have a mutable and immutable reference to the same value.
 
 - Rust will not allow us to reference a value in memory that is no longer there ie a 'dangling pointer'
+
+** The Slice Type **
+
+- Slices let you reference a contiguous sequence of elements in a collection rather than the whole collection.
+
+- A slice is a kind of reference, so it does not have ownership.
+
+- String slices are good to use to maintain data integrity and avoid dangling pointers
