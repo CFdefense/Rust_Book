@@ -1,3 +1,5 @@
 {
-    "rust-analyzer.linkedProjects": [ "/Users/cfarrell/Documents/Rust_Book/Chapter3/control_flow/Cargo.toml" ],
+  "rust-analyzer.linkedProjects": [
+    "/home/cfdefence/Documents/Github/Rust_Book/Chapter4_Understanding_Ownership/ownership/Cargo.toml"
+  ]
 }
