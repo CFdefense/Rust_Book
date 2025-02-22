@@ -1,0 +1,9 @@
+** Creating and Initializing Structs **
+
+- Structs must be mut to be able to change any of its associated values
+
+- Three types of structs, normal structs, tuple structs and unit structs.
+
+- Can copy during Initializing from another struct of same struct using shorthand '..'
+
+-It’s possible for structs to store references to data owned by something else, but to do so requires the use of lifetime.
