@@ -1,0 +1,7 @@
+** Enums **
+
+- Just as we can define methods for structs using impl we can do so for the Enums
+
+- Can use enum Option to expect null values
+
+- Cannot add to an Option because it is possibly a None value 
