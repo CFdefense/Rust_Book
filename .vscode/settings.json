@@ -1,5 +1,5 @@
 {
   "rust-analyzer.linkedProjects": [
-    "/Users/cfarrell/Documents/Rust_Book/Chapter6_Enums/concise_control_flow/Cargo.toml"
+    "/home/cfdefence/Documents/Github/Rust_Book/Chapter7_Packages_Crates_Modules/module_example/Cargo.toml"
   ]
 }
