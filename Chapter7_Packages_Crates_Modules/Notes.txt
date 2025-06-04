@@ -31,3 +31,13 @@
 - Code within a module is private by default you can use ** pub mod ** instead of mod to make it public
 
 - Can use lib.rs root to better organize the mod system/heirarchy
+
+- Super keyword is the same as doing '..' in cli it starts the relative path from the current module's parent
+
+- When bringing modules into scope it is best practice to bring them in with their parent module such that we understand its not a locally defined fn
+
+- However when bringing in enums, structs and other items it is best practice to omit the parent such to avoid CPU::CPU
+
+- The above is not best practice only when bringing in two same named sub structs with differing parent names
+
+- We can also use 'as' to change the name in which we call imported modules

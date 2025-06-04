@@ -1,0 +1,8 @@
+** Vectors **
+
+- We can reference a value stored in a vector by either its index or by using the get method
+
+- We can have multiple types of values in one vector using enums
+
+- When a vector is dropped so is its values inside of it
+

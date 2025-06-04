@@ -1,5 +1,5 @@
 {
   "rust-analyzer.linkedProjects": [
-    "/home/cfdefence/Documents/Github/Rust_Book/Chapter7_Packages_Crates_Modules/module_example/Cargo.toml"
+    "Chapter8_Common_Collections/vectors/Cargo.toml"
   ]
 }
