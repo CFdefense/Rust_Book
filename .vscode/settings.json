@@ -1,5 +1,5 @@
 {
   "rust-analyzer.linkedProjects": [
-    "Chapter8_Common_Collections/vectors/Cargo.toml"
+    "Chapter8_Common_Collections/strings/Cargo.toml"
   ]
 }

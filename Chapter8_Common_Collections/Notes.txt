@@ -6,3 +6,10 @@
 
 - When a vector is dropped so is its values inside of it
 
+** Strings **
+
+- Rust only has one string data type at its core: the str slice
+
+- The String type, which is provided by Rust’s standard library rather than coded into the core language, is a growable, mutable, owned, UTF-8 encoded string type
+
+- When indexing a String is in important to specify if were indexxing bytes or chars 
