@@ -13,3 +13,15 @@
 - The String type, which is provided by Rust’s standard library rather than coded into the core language, is a growable, mutable, owned, UTF-8 encoded string type
 
 - When indexing a String is in important to specify if were indexxing bytes or chars 
+
+** Hashmaps **
+
+- The type HashMap<K, V> stores a mapping of keys of type K to values of type V using a hashing function
+
+- Like Vectors, Hashmaps store their memory on the heap because they are dynamic data structures
+
+- Types which implement Copy trait will copy their value to the hashmap on insert but more complex data like Strings will lose ownership to the hashmap
+
+- By default, HashMap uses a hashing function called SipHash that can provide resistance to denial-of-service (DoS) attacks involving hash tables
+
+- You can optionally decide to use a different hasher if you would like, some have speed/security benefits over others
