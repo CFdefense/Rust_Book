@@ -7,3 +7,13 @@
 - Recoverable errors are handled by Result<T, E>
 
 - "RUST_BACKTRACE=1 cargo run" heres an example of how we can get more verbose debugging with a stack trace
+
+** Recoverable Errors **
+
+- For some errors we may not want to crash the program
+
+- One way we can do this is through the Result enum which is made up of Err(E) and Ok(T)
+
+- Instead of handling errors within some code you can return it to the calling code to deal with, this is called error propagation
+
+- The ? operator for error propagation can only be used within a function whose return type is compatable with the value ? is used on
