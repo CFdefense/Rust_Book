@@ -1,5 +1,5 @@
 {
   "rust-analyzer.linkedProjects": [
-    "Chapter8_Common_Collections/hashmaps/Cargo.toml"
+    "Chapter9_Error_Handling/recoverable_errors/Cargo.toml"
   ]
 }

@@ -1,0 +1,9 @@
+** Unrecoverable Errors **
+
+- Rust has two types of errors, unrecoverable errors and recoverable errors
+
+- Unrecoverable errors are handled by the panic! macro
+
+- Recoverable errors are handled by Result<T, E>
+
+- "RUST_BACKTRACE=1 cargo run" heres an example of how we can get more verbose debugging with a stack trace
