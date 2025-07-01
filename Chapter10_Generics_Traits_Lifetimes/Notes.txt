@@ -1,0 +1,12 @@
+** Generics **
+- Generics allow for us to reuse functions and logic for multiple types 
+
+- When defining a function that uses generics, we place the generics in the signature of the function
+
+- If we want to find the largest of some type, and dont use generics we need to reuse code logic for each type
+
+- we cannot compare all types with '>' only those which implement std::cmp::PartialOrd, traits and generics work hand in hand
+
+- We can declare generic types, function types, method types and struct types among others
+
+** Traits **

@@ -21,7 +21,7 @@ impl Guess {
 
 fn main() {
     // an example of when expect is verbose and useful
-    let home: IpAddr = "127.0.0.1"
+    let _home: IpAddr = "127.0.0.1"
     .parse()
     .expect("Hardcoded IP address should be valid");
 

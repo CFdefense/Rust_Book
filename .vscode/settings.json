@@ -1,5 +1,5 @@
 {
   "rust-analyzer.linkedProjects": [
-    "Chapter9_Error_Handling/panic_or_not/Cargo.toml"
+    "Chapter10_Generics_Traits_Lifetimes/traits/Cargo.toml"
   ]
 }
