@@ -10,3 +10,17 @@
 - We can declare generic types, function types, method types and struct types among others
 
 ** Traits **
+
+- A trait defines the functionality a particular type has and can share with other types.
+
+- Different types share the same behavior if we can call the same methods on all of those types. 
+
+- Trait definitions are a way to group method signatures together to define a set of behaviors necessary to accomplish some purpose.
+
+- A trait can have multiple methods in its body: the method signatures are listed one per line, and each line ends in a semicolon.
+
+- The compiler will enforce that any type that has the Summary trait will have the method summarize defined with this signature exactly.
+
+- Default implementations can call other methods in the same trait, even if those other methods don’t have a default implementation
+
+- We can also pass traits as function paramters (very similiar to inferfaces in typescript)
