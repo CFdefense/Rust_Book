@@ -1,5 +1,5 @@
 {
   "rust-analyzer.linkedProjects": [
-    "Chapter10_Generics_Traits_Lifetimes/traits/Cargo.toml"
+    "Chapter10_Generics_Traits_Lifetimes/lifetimes/Cargo.toml"
   ]
 }
