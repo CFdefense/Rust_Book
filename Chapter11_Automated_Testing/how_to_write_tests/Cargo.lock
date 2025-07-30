@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "how_to_write_tests"
+name = "adder"
 version = "0.1.0"

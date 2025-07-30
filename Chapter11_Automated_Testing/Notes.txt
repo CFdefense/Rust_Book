@@ -1,0 +1,21 @@
+** How to Write Tests **
+
+- At its simplest, a test in Rust is a function that’s annotated with the test attribute.
+
+- Attributes are metadata about pieces of Rust code; one example is the derive attribute we used with structs in Chapter 5.
+
+- To change a function into a test function, add #[test] on the line before fn. Run your tests with the cargo test command.
+
+- Can use assert_eq! or assert_ne! for testing equality or inequality vs using == within an assert statement
+
+- We can write custom messages for assertions
+
+- We can denote a test is expected to fail with should_panic
+
+- You can’t use the #[should_panic] annotation on tests that use Result<T, E>.
+
+- To assert that an operation returns an Err variant, don’t use the question mark operator on the Result<T, E> value. Instead, use assert!(value.is_err()).
+
+** Controlling How Tests Are Run **
+
+- 
