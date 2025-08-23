@@ -1,5 +1,5 @@
 {
   "rust-analyzer.linkedProjects": [
-    "Chapter11_Automated_Testing/how_to_write_tests/Cargo.toml"
+    "Chapter12_CLI_Program/minigrep/Cargo.toml"
   ]
 }
