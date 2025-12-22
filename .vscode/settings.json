@@ -1,5 +1,5 @@
 {
   "rust-analyzer.linkedProjects": [
-    "Chapter12_CLI_Program/minigrep/Cargo.toml"
+    "Chapter13_Iterators_Closures/iterators/Cargo.toml"
   ]
 }

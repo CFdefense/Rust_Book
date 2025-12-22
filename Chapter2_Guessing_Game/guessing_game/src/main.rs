@@ -9,7 +9,7 @@ fn main() {
     loop {
         println!("Please Input Your Guess");
 
-        let mut guess:String = String::new();
+        let mut guess: String = String::new();
 
         io::stdin()
             .read_line(&mut guess)
