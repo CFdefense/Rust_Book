@@ -83,3 +83,26 @@ Contrast this with what happens when Rust tries to determine how much space a re
 This leads to a recursive type inquiry.
 
 #### Fix using indirection
+
+Indirection means that instead of storing a value directly, we should change the data structure to store the value indirectly by storing a pointer to the value instead.
+
+Because a Box<T> is a pointer, Rust always knows how much space a Box<T> needs: A pointer’s size doesn’t change based on the amount of data it’s pointing to. This will fix our unknown size issue.
+
+Now lets apply this fix to our previous example: 
+```rs
+enum List {
+    Cons(i32, Box<List>),
+    Nil,
+}
+
+fn main() {
+    let list = Cons(1, Box::new(Cons(2, Box::new(Cons(3, Box::new(Nil))))));
+}
+```
+
+#### Summmary
+Boxes provide only the indirection and heap allocation; they don’t have any other special capabilities, like those we’ll see with the other smart pointer types. They also don’t have the performance overhead that these special capabilities incur, so they can be useful in cases like the cons list where the indirection is the only feature we need.
+
+The Box<T> type is a smart pointer because it implements the `Deref` trait, which allows Box<T> values to be treated like references. 
+
+When a Box<T> value goes out of scope, the heap data that the box is pointing to is cleaned up as well because of the Drop trait implementation.
